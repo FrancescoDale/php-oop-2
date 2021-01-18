@@ -16,10 +16,25 @@ class User {
         $this->postCount = $_postCount;
     }
 
+    //metodi
 
+    public function getAlias() {
+        return $this->alias;
+    }
+
+    public function getAvatar() {
+        return $this->avatar;
+    }
+
+    public function getMail() {
+        return $this->mail;
+    }
+
+    public function getPosts() {
+        return $this->postCount;
+    }
 
 
 }
-
 
 ?>
